@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>servlet.CheckCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ToLogin</servlet-name>
+    <servlet-class>servlet.ToLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddModuleServlet</servlet-name>
+    <servlet-class>servlet.AddModuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InterfaceListServlet</servlet-name>
+    <servlet-class>servlet.InterfaceListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddInterfaceServlet</servlet-name>
+    <servlet-class>servlet.AddInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveInterfaceServlet</servlet-name>
+    <servlet-class>servlet.SaveInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowInterfaceServlet</servlet-name>
+    <servlet-class>servlet.ShowInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExecuteInterfaceServlet</servlet-name>
+    <servlet-class>servlet.ExecuteInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyInterfaceServlet</servlet-name>
+    <servlet-class>servlet.ModifyInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyInterfaceSaveServlet</servlet-name>
+    <servlet-class>servlet.ModifyInterfaceSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteInterfaceServlet</servlet-name>
+    <servlet-class>servlet.DeleteInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyModuleServlet</servlet-name>
+    <servlet-class>servlet.ModifyModuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveModuleServlet</servlet-name>
+    <servlet-class>servlet.SaveModuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteModuleServlet</servlet-name>
+    <servlet-class>servlet.DeleteModuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTaskListServlet</servlet-name>
+    <servlet-class>servlet.ShowTaskListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTaskServlet</servlet-name>
+    <servlet-class>servlet.AddTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowInterfaceAllServlet</servlet-name>
+    <servlet-class>servlet.ShowInterfaceAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveTaskServlet</servlet-name>
+    <servlet-class>servlet.SaveTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyTaskServlet</servlet-name>
+    <servlet-class>servlet.ModifyTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifySaveTaskServlet</servlet-name>
+    <servlet-class>servlet.ModifySaveTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteTaskServlet</servlet-name>
+    <servlet-class>servlet.DeleteTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProjectListServlet</servlet-name>
+    <servlet-class>servlet.ProjectListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProjectServlet</servlet-name>
+    <servlet-class>servlet.AddProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveProjectServlet</servlet-name>
+    <servlet-class>servlet.SaveProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyProjectServlet</servlet-name>
+    <servlet-class>servlet.ModifyProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifySaveProjectServlet</servlet-name>
+    <servlet-class>servlet.ModifySaveProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteProjectServlet</servlet-name>
+    <servlet-class>servlet.DeleteProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowProjectModuleServlet</servlet-name>
+    <servlet-class>servlet.ShowProjectModuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTaskInterfaceServlet</servlet-name>
+    <servlet-class>servlet.ShowTaskInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyTaskInterfaceIdsServlet</servlet-name>
+    <servlet-class>servlet.ModifyTaskInterfaceIdsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveTaskInterfaceIds</servlet-name>
+    <servlet-class>servlet.SaveTaskInterfaceIds</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InterfaceUpServlet</servlet-name>
+    <servlet-class>servlet.InterfaceUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InterfaceDownServlet</servlet-name>
+    <servlet-class>servlet.InterfaceDownServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExecuteInOutInterfaceServlet</servlet-name>
+    <servlet-class>servlet.ExecuteInOutInterfaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTimerTaskServlet</servlet-name>
+    <servlet-class>servlet.AddTimerTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveTimerTaskServlet</servlet-name>
+    <servlet-class>servlet.SaveTimerTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteTimerTaskServlet</servlet-name>
+    <servlet-class>servlet.DeleteTimerTaskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoadTimerServlet</servlet-name>
+    <servlet-class>servlet.LoadTimerServlet</servlet-class>
+<!--     <load-on-startup>1</load-on-startup> -->
+  </servlet>
+  <servlet>
+    <servlet-name>ShowExecuteHistoryServlet</servlet-name>
+    <servlet-class>servlet.ShowExecuteHistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTaskHistoryServlet</servlet-name>
+    <servlet-class>servlet.ShowTaskHistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TestPerformanceServlet</servlet-name>
+    <servlet-class>servlet.TestPerformanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExecuteInterfacePerformanceServlet</servlet-name>
+    <servlet-class>servlet.ExecuteInterfacePerformanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowInterfacePerformanceResultServlet</servlet-name>
+    <servlet-class>servlet.ShowInterfacePerformanceResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowResultPerformanceServlet</servlet-name>
+    <servlet-class>servlet.ShowResultPerformanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowInterfacePerformanceHistoryServlet</servlet-name>
+    <servlet-class>servlet.ShowInterfacePerformanceHistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TestTaskPerformance</servlet-name>
+    <servlet-class>servlet.TestTaskPerformance</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExecuteTaskPerformanceServlet</servlet-name>
+    <servlet-class>servlet.ExecuteTaskPerformanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowResultServlet</servlet-name>
+    <servlet-class>servlet.ShowResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTaskPerformanceResultServlet</servlet-name>
+    <servlet-class>servlet.ShowTaskPerformanceResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTaskPerformanceDetailsServlet</servlet-name>
+    <servlet-class>servlet.ShowTaskPerformanceDetailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTaskPerformanceHistory</servlet-name>
+    <servlet-class>servlet.ShowTaskPerformanceHistory</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowAllInterface</servlet-name>
+    <servlet-class>servlet.ShowAllInterface</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowMeInterfaceServlet</servlet-name>
+    <servlet-class>servlet.ShowMeInterfaceServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/check_code</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToLogin</servlet-name>
+    <url-pattern>/to_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddModuleServlet</servlet-name>
+    <url-pattern>/add_module</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InterfaceListServlet</servlet-name>
+    <url-pattern>/interface_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddInterfaceServlet</servlet-name>
+    <url-pattern>/add_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveInterfaceServlet</servlet-name>
+    <url-pattern>/save_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowInterfaceServlet</servlet-name>
+    <url-pattern>/show_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExecuteInterfaceServlet</servlet-name>
+    <url-pattern>/execute_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInterfaceServlet</servlet-name>
+    <url-pattern>/modify_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInterfaceSaveServlet</servlet-name>
+    <url-pattern>/modify_interface_save</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteInterfaceServlet</servlet-name>
+    <url-pattern>/delete_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyModuleServlet</servlet-name>
+    <url-pattern>/modify_module</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveModuleServlet</servlet-name>
+    <url-pattern>/save_module</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteModuleServlet</servlet-name>
+    <url-pattern>/delete_module</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTaskListServlet</servlet-name>
+    <url-pattern>/show_task_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTaskServlet</servlet-name>
+    <url-pattern>/add_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowInterfaceAllServlet</servlet-name>
+    <url-pattern>/show_interface_all</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveTaskServlet</servlet-name>
+    <url-pattern>/save_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyTaskServlet</servlet-name>
+    <url-pattern>/modify_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifySaveTaskServlet</servlet-name>
+    <url-pattern>/modify_save_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTaskServlet</servlet-name>
+    <url-pattern>/delete_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectListServlet</servlet-name>
+    <url-pattern>/project_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProjectServlet</servlet-name>
+    <url-pattern>/add_project</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveProjectServlet</servlet-name>
+    <url-pattern>/save_project</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyProjectServlet</servlet-name>
+    <url-pattern>/modify_project</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifySaveProjectServlet</servlet-name>
+    <url-pattern>/modify_save_project</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProjectServlet</servlet-name>
+    <url-pattern>/delete_project</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowProjectModuleServlet</servlet-name>
+    <url-pattern>/show_project_module</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTaskInterfaceServlet</servlet-name>
+    <url-pattern>/show_task_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyTaskInterfaceIdsServlet</servlet-name>
+    <url-pattern>/modify_task_interfaceIds</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveTaskInterfaceIds</servlet-name>
+    <url-pattern>/save_task_interfaceIds</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InterfaceUpServlet</servlet-name>
+    <url-pattern>/interface_up</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InterfaceDownServlet</servlet-name>
+    <url-pattern>/interface_down</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExecuteInOutInterfaceServlet</servlet-name>
+    <url-pattern>/execute_interface_in_out</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTimerTaskServlet</servlet-name>
+    <url-pattern>/add_timer_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveTimerTaskServlet</servlet-name>
+    <url-pattern>/save_timer_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTimerTaskServlet</servlet-name>
+    <url-pattern>/delete_timer_task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadTimerServlet</servlet-name>
+    <url-pattern>/load_timer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowExecuteHistoryServlet</servlet-name>
+    <url-pattern>/show_execute_history</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTaskHistoryServlet</servlet-name>
+    <url-pattern>/show_task_history</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestPerformanceServlet</servlet-name>
+    <url-pattern>/test_performance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExecuteInterfacePerformanceServlet</servlet-name>
+    <url-pattern>/execute_interface_performance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowInterfacePerformanceResultServlet</servlet-name>
+    <url-pattern>/show_interface_performance_result</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowResultPerformanceServlet</servlet-name>
+    <url-pattern>/show_result_performance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowInterfacePerformanceHistoryServlet</servlet-name>
+    <url-pattern>/show_interface_performance_history</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestTaskPerformance</servlet-name>
+    <url-pattern>/test_task_performance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExecuteTaskPerformanceServlet</servlet-name>
+    <url-pattern>/execute_task_performance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowResultServlet</servlet-name>
+    <url-pattern>/show_result</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTaskPerformanceResultServlet</servlet-name>
+    <url-pattern>/show_task_performance_result</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTaskPerformanceDetailsServlet</servlet-name>
+    <url-pattern>/show_task_performance_details</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTaskPerformanceHistory</servlet-name>
+    <url-pattern>/show_task_performance_history</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAllInterface</servlet-name>
+    <url-pattern>/show_all_interface</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMeInterfaceServlet</servlet-name>
+    <url-pattern>/show_me_interface</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

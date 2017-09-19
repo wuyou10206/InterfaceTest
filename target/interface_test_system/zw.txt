@@ -1,0 +1,23 @@
+---index-task下显示interface--
+
+<ul>
+<%
+List<Interface> interfaces = interfaceService.findInterfaceByTask(taskId);
+for(Interface inter:interfaces){
+%>
+<li><a href="" target="navTab" rel="show_task_interface_<%=inter.getId()%>"><%=inter.getInterfaceName() %></a></li>
+<%} %>
+</ul>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
